@@ -10,7 +10,7 @@
 / {
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row";
+        diode-direction = "row2col";
         wakeup-source;
 
         // Column pins (outputs) - 14 columns using actual nRF52840 pin names
