@@ -1,0 +1,13 @@
+# Copyright (c) 2023 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_NICE60
+
+config ZMK_KEYBOARD_NAME
+    default "Nice60"
+
+config ZMK_RGB_UNDERGLOW
+    select WS2812_STRIP
+    select SPI
+
+endif # SHIELD_NICE60

@@ -1,0 +1,10 @@
+file_format: "1"
+id: nice60
+name: Nice60
+type: shield
+url: https://github.com/CiupituStefan/zmk-config
+requires: [pro_micro]
+features:
+  - keys
+  - underglow
+siblings: []
